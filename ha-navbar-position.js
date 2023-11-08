@@ -12,7 +12,7 @@ class NavbarPosition {
   }
 
   init() {
-    let navbarPosition = fetchNavbarFromCache();
+    let navbarPosition = this.fetchNavbarFromCache();
 
     if (navbarPosition === 'bottom') {
       this.applyChangesAndReschedule();
