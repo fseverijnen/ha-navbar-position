@@ -40,9 +40,6 @@ class NavbarPosition {
       this.applyPaddingChanges();
     } catch (e) {
       console.error('ERROR while applying navbar changes:', e);
-    } finally {
-      console.log('Finally');
-      setTimeout(() => this.applyChangesAndReschedule(), 1000);
     }
   }
 
